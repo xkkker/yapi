@@ -450,7 +450,7 @@ class View extends Component {
               </Tooltip>
             </Col>
           </Row>
-          <Row className="row">
+          {/* <Row className="row">
             <Col span={4} className="colKey">
               Mock地址：
             </Col>
@@ -480,7 +480,7 @@ class View extends Component {
                   }`}
               </span>
             </Col>
-          </Row>
+          </Row> */}
           {this.props.curData.custom_field_value &&
             this.props.custom_field.enable && (
               <Row className="row remark">
